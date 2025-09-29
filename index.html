@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Piškvorky</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Piškvorky</h1>
+    <div id="game-mode">
+        <button onclick="startGame(1)">S botem</button>
+        <button onclick="startGame(2)">Dva hráči</button>
+    </div>
+    <div id="game-board" style="display:none;">
+        <div id="status"></div>
+        <div class="board">
+            <!-- Hrací pole -->
+            <button class="cell" onclick="makeMove(0)"></button>
+            <button class="cell" onclick="makeMove(1)"></button>
+            <button class="cell" onclick="makeMove(2)"></button>
+            <button class="cell" onclick="makeMove(3)"></button>
+            <button class="cell" onclick="makeMove(4)"></button>
+            <button class="cell" onclick="makeMove(5)"></button>
+            <button class="cell" onclick="makeMove(6)"></button>
+            <button class="cell" onclick="makeMove(7)"></button>
+            <button class="cell" onclick="makeMove(8)"></button>
+        </div>
+        <button onclick="resetGame()">Nová hra</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
