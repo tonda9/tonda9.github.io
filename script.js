@@ -1,3 +1,4 @@
+// Piškvorky
 let board = ["", "", "", "", "", "", "", "", ""];
 let currentPlayer = "X";
 let gameMode = 0;
